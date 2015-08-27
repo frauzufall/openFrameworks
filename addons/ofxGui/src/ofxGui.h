@@ -15,6 +15,7 @@
 #include "ofxTabbedPages.h"
 #include "ofxValuePlotter.h"
 #include "ofxFpsPlotter.h"
+#include "ofxTextField.h"
 
 void ofxGuiSetFont(const string & fontPath,int fontsize, bool _bAntiAliased=true, bool _bFullCharacterSet=false, int dpi=0);
 void ofxGuiSetBitmapFont();

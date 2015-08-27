@@ -32,13 +32,14 @@ class ofApp : public ofBaseApp {
 
         ofxMinimalButton button;
 
-		ofParameter <string> label_param;
+        ofParameter <string> label_param;
 		ofParameter <bool> toggle_param;
 		ofParameter <float> slider_param;
 		ofParameter <bool> toggle1_param, toggle2_param, toggle3_param, toggle4_param;
 		ofParameter <float> slider1_param, slider2_param, slider3_param, slider4_param;
 		vector <ofParameter <bool> > matrix_params;
 		ofParameterGroup g;
+        ofParameter <string> textinput_param;
 
 		void toggleGroupHeader(bool & val);
         void updateMatrixIndex(int& index);

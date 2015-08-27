@@ -58,6 +58,8 @@ void ofApp::setup(){
         matrix.add<ofxMinimalToggle>(matrix_params.at(i));
     }
     panel1.add(matrix);
+    panel1.addSpacer(10);
+    panel1.add<ofxTextField>(textinput_param.set("textinput", "some text"));
 
 	/*
      * horizontal panel
